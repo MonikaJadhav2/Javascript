@@ -1,0 +1,88 @@
+//finding the length of a string
+let s = 'JavaScript';
+let len = s.length;
+
+console.log("String Length: " + len);
+
+//string concatenation
+let s1 = 'Java';
+let s2 = 'Script';
+let res = s1 + s2;
+
+console.log("Concatenated String: " + res);
+
+//escape characters
+const s3 = "\'GfG\' is a learning portal";
+const s4 = "\"GfG\" is a learning portal";
+const s5 = "\\GfG\\ is a learning portal";
+
+console.log(s3);
+console.log(s4);
+console.log(s5);
+
+//breaking long strings
+const s6 = "'GeeksforGeeks' is \
+a learning portal";
+
+console.log(s6);
+
+//finding substring
+let s7 = 'JavaScript Tutorial';
+let s8 = s7.substring(0, 10);
+
+console.log(s8);
+
+//converting string to uppercase and lowercase
+let s9 = 'JavaScript';
+let uCase = s9.toUpperCase();
+let lCase = s9.toLowerCase();
+
+console.log(uCase);
+console.log(lCase);
+
+//search
+let s11 = 'def abc abc';
+let i = s11.indexOf('abc');
+
+console.log(i);
+
+//string replace
+let s12 = 'Learn HTML at GfG and HTML is useful';
+let s13 = s12.replace(/HTML/g, 'JavaScript');
+
+console.log(s13);
+
+//trimming whitespace from string
+let s14 = '    Learn JavaScript       ';
+let s15 = s14.trim();
+
+console.log(s15);
+
+//Access characters from string
+let s16 = 'Learn JavaScript';
+let s17 = s16[6];
+console.log(s17);
+
+s17 = s16.charAt(6);
+console.log(s17);
+
+//string comparison
+let s20 = "Ajay"
+let s21 = new String("Ajay");
+
+console.log(s20 == s21);  // true (type coercion)
+console.log(s20 === s21); // false (strict comparison)
+console.log(s20.localeCompare(s21)); // 0 (means they are equal lexicographically)
+
+//pssing javascript string as object
+const str1 = new String("GeeksforGeeks");
+
+console.log(str1);
+
+//Question:Are the strings created by the new keyword is same as normal strings?
+//Ans:No, the string created by the new keyword is an object and is not the same as normal strings.
+const strr1 = new String("GeeksforGeeks");
+const strr2 = "GeeksforGeeks";
+
+console.log(strr1 == strr2);
+console.log(strr1 === strr2);
