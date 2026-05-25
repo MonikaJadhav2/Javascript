@@ -3,7 +3,7 @@ console.log(name);
 
 //number variables
 let a = 10;
-let b = 20;
+let b = 20; 
 console.log(a+b);
 
 //student marks
