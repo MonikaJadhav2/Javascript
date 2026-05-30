@@ -7,7 +7,7 @@ let b = 20;
 console.log(a+b);
  
 //student marks
-let marks = 80;
+let marks = 80; 
 console.log(marks);
 marks=95;
 console.log(marks);
