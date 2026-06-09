@@ -7,7 +7,7 @@ console.log("Subtraction:", a - b);
 console.log("Multiplication:", a * b);
 console.log("Division:", a / b); 
 console.log("Modulus:", a % b);
-console.log("Power:", a ** b);
+console.log("Power:", a ** b); 
 
 
 console.log("\n===== Assignment Operators =====");
